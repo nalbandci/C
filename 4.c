@@ -1,0 +1,15 @@
+// 4. Умножение двух вещественных чисел
+
+#include <stdio.h>
+int main()
+{
+    double firstNumber, secondNumber, product;
+    printf("Введите два числа: ");
+
+    scanf ("%lf %lf", &firstNumber, &secondNumber);
+    product = firstNumber * secondNumber;
+
+    printf("Product = %.21f\n", product);
+
+    return 0;
+}
