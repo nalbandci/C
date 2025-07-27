@@ -9,7 +9,7 @@ int main()
     scanf ("%lf %lf", &firstNumber, &secondNumber);
     product = firstNumber * secondNumber;
 
-    printf("Product = %.21f\n", product);
+    printf("Product = %.2lf\n", product);
 
     return 0;
 }
